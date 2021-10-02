@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="1" failures="0" finished="true" name="Test Run: 3" tests="0" total_time="Finished in: 0.00 secs."/>
+    <test location="C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsCSPPlanner.py" status="error" test="stripsCSPPlanner" time="0">
+        <stdout/>
+        <stderr>
+            <![CDATA[Traceback (most recent call last):
+  File "C:\Users\yolan\.p2\pool\plugins\org.python.pydev.core_8.3.0.202104101217\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsCSPPlanner.py", line 106, in <module>
+    con_plan(problem0,1) # should it succeed?
+  File "C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsCSPPlanner.py", line 97, in con_plan
+    sol = Con_solver(csp).solve_one()
+  File "C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\cspConsistency.py", line 94, in solve_one
+    new_domains = self.make_arc_consistent(domains, to_do)
+  File "C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\cspConsistency.py", line 31, in make_arc_consistent
+    orig_domains = {var:var.domain for var in self.csp.variables}
+AttributeError: 'CSP_from_STRIPS' object has no attribute 'variables'
+ERROR: Module: stripsCSPPlanner could not be imported (file: C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsCSPPlanner.py).
+]]>
+        </stderr>
+    </test>
+    <launch mode="run">
+        <launch_memento>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="Assignment 4 stripsCSPPlanner.py (1)"/>
+]]>
+        </launch_memento>
+    </launch>
+</pydev-testsuite>

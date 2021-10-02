@@ -1,0 +1,8 @@
+MODULES_MANAGER_V3
+Assignment1Search.__init__|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Assignment 3\RunSearch\Assignment1Search\__init__.py
+Assignment1Search.createMaze|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Assignment 3\RunSearch\Assignment1Search\createMaze.py
+Assignment1Search.display|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Assignment 3\RunSearch\Assignment1Search\display.py
+Assignment1Search.searchBranchAndBound|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Assignment 3\RunSearch\Assignment1Search\searchBranchAndBound.py
+Assignment1Search.searchGeneric|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Assignment 3\RunSearch\Assignment1Search\searchGeneric.py
+Assignment1Search.searchMPP|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Assignment 3\RunSearch\Assignment1Search\searchMPP.py
+Assignment1Search.searchProblem|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Assignment 3\RunSearch\Assignment1Search\searchProblem.py

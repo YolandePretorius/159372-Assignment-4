@@ -1,0 +1,37 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\yolan\eclipse-workspace\TutTest\.metadata\.plugins\org.eclipse.core.resources\.projects\Tutorial 2\com.python.pydev.analysis\v2_indexcache
+Tut2.__init__|1627549403833165000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Tutorial 2\Tut2\__init__.py
+pcn|1627114288248964000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Tutorial 2\pcn.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+2=Tut2.__init__
+1=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Tutorial 2\Tut2\__init__.py
+3=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\Tutorial 2\pcn.py
+6=pcn.__init__
+4=pcn
+5=pcn.pcntrain
+-- END DICTIONARY
+-- START TREE 1
+8
+X|1|X!1^68#1*19@
+cla|2|classvar1!1^20#1*19@classvar0!1^19#1*19@
+p|1|p!1^95#1*19@
+pcn|1|pcn!3^12#7*33@
+pim|1|pima!1^14#1*19@
+tes|3|testin1!1^113#1*19@testtgt!1^117#1*19@testin2!1^115#1*19@
+tra|3|trainin1!1^112#1*19@traintgt!1^116#1*19@trainin2!1^114#1*19@
+y|1|y!1^69#1*19@
+-- END TREE
+-- START TREE 2
+8
+__i|1|__init__!4&3^15#9*34@
+act|1|activations!5&3^42#13*35@
+con|1|confmat!4&3^61#9*34@
+nda|1|nData!6&3^28#9*35@
+nin|1|nIn!6&3^19#13*35@
+nou|1|nOut!6&3^24#13*35@
+pcn|2|pcntrain!4&3^33#9*34@pcnfwd!4&3^52#9*34@
+wei|1|weights!6&3^31#9*35@
+-- END TREE

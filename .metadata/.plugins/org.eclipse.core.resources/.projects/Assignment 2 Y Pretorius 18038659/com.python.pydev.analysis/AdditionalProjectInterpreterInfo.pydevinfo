@@ -1,0 +1,131 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\yolan\eclipse-workspace\TutTest\.metadata\.plugins\org.eclipse.core.resources\.projects\Assignment 2 Y Pretorius 18038659\com.python.pydev.analysis\v2_indexcache
+PartA.mlp|1630449648000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\mlp.py
+PartB.pca|1630449648000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\pca.py
+PartA.runGAscriptAss2|1631182176000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\runGAscriptAss2.py
+PartA.chromosomeFitness|1631182176000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\chromosomeFitness.py
+PartA.getData|1631181848000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\getData.py
+PartB.__init__|1630484450000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\__init__.py
+PartB.mlp|1630449648000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\mlp.py
+PartB.som|1631003222000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\som.py
+PartB.getData|1630985572000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\getData.py
+PartA.ga|1631182176000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\ga.py
+PartB.pcn|1631005708000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\pcn.py
+PartA.__init__|1630449648000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\__init__.py
+PartB.runSom|1631182150000000000|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\runSom.py
+-- END DISKCACHE
+-- START DICTIONARY
+35
+35=ga.runGA
+9=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\runGAscriptAss2.py
+7=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\chromosomeFitness.py
+17=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\pca.py
+16=PartA.mlp
+18=PartB.pca
+31=som.somtrain
+19=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\pcn.py
+24=som
+34=mlp.mlptrain
+21=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\som.py
+32=mlp.mlpfwd
+29=mlp.__init__
+22=PartB.som
+12=PartA.ga
+13=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\mlp.py
+20=PartB.pcn
+25=ga
+26=pcn
+11=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\ga.py
+15=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\mlp.py
+27=pcn.pcntrain
+5=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\getData.py
+30=ga.__init__
+10=PartA.runGAscriptAss2
+3=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\getData.py
+8=PartA.chromosomeFitness
+23=mlp
+33=pcn.__init__
+6=PartA.getData
+1=C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\runSom.py
+14=PartB.mlp
+4=PartB.getData
+28=som.__init__
+2=PartB.runSom
+-- END DICTIONARY
+-- START TREE 1
+32
+act|2|activation!1^173#1*19@activationTrans!1^175#1*19@
+add|2|AddtoArray!3^57#5*34@AddtoArray!5^46#5*50@
+bal|2|BalanceSampling!5^58#5*50@BalanceSampling!3^69#5*34@
+bes|1|bestGenome!1^25#1*19@
+chr|2|chromosomeFitness!7^39#5*66@chrome!9^65#1*83@
+cou|1|countoverlaps!1^68#5*18@
+dat|1|dataPlot!3^22#5*34@
+del|2|deleteRow!5^53#5*50@deleteRow!3^64#5*34@
+err|1|errorEarlyStoppingError!9^81#1*83@
+fil|2|fileName!3^13#1*35@fileName!5^13#1*51@
+g|1|g!9^57#1*83@
+ga|1|ga!11^21#7*97@
+get|1|getBestAtivation!1^56#5*18@
+hig|2|higestScoring!7^14#1*67@higestScoringChomo!7^15#1*67@
+mlp|2|mlp!13^16#7*113@mlp!15^16#7*129@
+net|1|net!9^80#1*83@
+nor|2|normalizeData!5^23#5*50@normalizeData!3^31#5*34@
+p|1|p!1^176#1*19@
+pca|1|pca!17^15#5*146@
+pcn|1|pcn!19^14#7*161@
+per|1|percentageAccuracy!9^82#1*83@
+rea|2|readFromFile!3^17#5*34@readFromFile!5^17#5*50@
+red|1|reduceSetData!1^43#5*18@
+rem|3|removecolumns!9^22#5*82@removecolumns!7^19#5*66@removecolumns!1^29#5*18@
+run|5|runGetData!5^107#5*50@runDifferentSizeMaps!1^83#5*18@runMLP!3^184#5*34@runMLP!5^166#5*50@runGetData!3^126#5*34@
+sep|4|seperateData!5^89#5*50@seperateData70vs30!3^117#5*34@seperateData70vs30!5^98#5*50@seperateData!3^107#5*34@
+shu|2|ShuffleDataRandomly!5^38#5*50@ShuffleDataRandomly!3^45#5*34@
+som|2|SomData!1^110#5*18@som!21^15#7*177@
+tes|4|testingt!1^21#1*19@testing_tgt!9^46#1*83@testing_in!9^45#1*83@testing_in!1^20#1*19@
+tim|2|timeStop!9^72#1*83@timeStart!9^50#1*83@
+tra|4|train_in!9^43#1*83@train_in!1^18#1*19@train_tgt!9^44#1*83@traint!1^19#1*19@
+val|4|validation_in!9^47#1*83@validation_in!1^22#1*19@validation_tgt!1^23#1*19@validation_tgt!9^48#1*83@
+-- END TREE
+-- START TREE 2
+38
+__i|5|__init__!23&15^19#9*130@__init__!23&13^19#9*114@__init__!24&21^18#6*178@__init__!25&11^23#6*98@__init__!26&19^17#9*162@
+act|1|activations!27&19^45#13*163@
+alp|1|alpha!28&21^31#3*179@
+bet|2|beta!29&13^27#9*115@beta!29&15^27#9*131@
+con|3|confmat!23&15^117#9*130@confmat!23&13^117#9*114@confmat!26&19^62#9*162@
+cro|1|crossover!30&11^48#3*99@
+ear|2|earlystopping!23&13^37#9*114@earlystopping!23&15^37#9*130@
+eli|1|elitism!25&11^169#6*98@
+eta|8|eta_b!28&21^25#3*179@eta_b!31&21^78#4*179@eta_n!28&21^27#3*179@eta_n!31&21^79#4*179@eta_nfinal!28&21^28#3*179@eta_ninit!31&21^61#3*179@eta_bfinal!28&21^26#3*179@eta_binit!31&21^60#3*179@
+fit|1|fitnessFunction!30&11^46#3*99@
+fps|1|fps!25&11^110#6*98@
+hid|2|hidden!32&15^100#9*131@hidden!32&13^100#9*115@
+map|3|mapDim!28&21^21#3*179@map!28&21^33#3*179@mapDist!28&21^45#3*179@
+mlp|4|mlptrain!23&15^58#9*130@mlptrain!23&13^58#9*114@mlpfwd!23&13^97#9*114@mlpfwd!23&15^97#9*130@
+mom|2|momentum!29&15^28#9*131@momentum!29&13^28#9*115@
+mut|2|mutationProb!30&11^40#5*99@mutate!25&11^162#6*98@
+nda|4|ndata!29&13^24#9*115@ndata!29&15^24#9*131@nData!28&21^19#3*179@nData!33&19^30#9*163@
+ndi|1|nDim!28&21^20#3*179@
+nel|1|nElite!30&11^49#3*99@
+nep|1|nEpochs!30&11^44#3*99@
+nhi|2|nhidden!29&15^25#9*131@nhidden!29&13^25#9*115@
+nin|3|nIn!33&19^21#13*163@nin!29&13^22#9*115@nin!29&15^22#9*131@
+nou|3|nout!29&15^23#9*131@nOut!33&19^26#13*163@nout!29&13^23#9*115@
+nsi|4|nSize!28&21^29#3*179@nSize!31&21^82#4*179@nSizeinit!31&21^62#3*179@nSizefinal!28&21^30#3*179@
+out|4|outtype!29&13^29#9*115@outputs!34&15^69#13*131@outtype!29&15^29#9*131@outputs!34&13^69#13*115@
+pcn|2|pcnfwd!26&19^54#9*162@pcntrain!26&19^36#9*162@
+pop|3|populationSize!30&11^35#4*99@population!30&11^52#3*99@population!35&11^99#4*99@
+run|1|runGA!25&11^55#6*98@
+som|2|somtrain!24&21^59#6*178@somfwd!24&21^84#6*178@
+spc|1|spCrossover!25&11^141#6*98@
+str|1|stringLength!30&11^31#3*99@
+tou|2|tournment!30&11^50#3*99@tournament!25&11^178#6*98@
+tra|2|train_tgt!30&11^27#3*99@train_in!30&11^26#3*99@
+uni|1|uniformCrossover!25&11^152#6*98@
+val|2|validation_tgt!30&11^29#3*99@validation_in!30&11^28#3*99@
+wei|6|weights!28&21^38#4*179@weights!33&19^33#9*163@weights2!29&15^33#9*131@weights1!29&13^32#9*115@weights1!29&15^32#9*131@weights2!29&13^33#9*115@
+x|1|x!28&21^23#3*179@
+y|1|y!28&21^24#3*179@
+-- END TREE

@@ -1,0 +1,14 @@
+MODULES_MANAGER_V3
+PartA.__init__|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\__init__.py
+PartA.chromosomeFitness|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\chromosomeFitness.py
+PartA.ga|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\ga.py
+PartA.getData|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\getData.py
+PartA.mlp|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\mlp.py
+PartA.runGAscriptAss2|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartA\runGAscriptAss2.py
+PartB.__init__|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\__init__.py
+PartB.getData|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\getData.py
+PartB.mlp|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\mlp.py
+PartB.pca|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\pca.py
+PartB.pcn|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\pcn.py
+PartB.runSom|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\runSom.py
+PartB.som|C:\MASSEY 2021\159372 INTELLIGENT MACHINES\18038659 Y Pretorius Assignment 2Test1\18038659 Y Pretorius Assignment 2\Assignment 2 Y Pretorius 18038659\PartB\som.py
