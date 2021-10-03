@@ -82,22 +82,6 @@ boolean = {True, False}
 #                              'RHM':False}, 
 #                             {'SWC':False, 'MW':False, 'RHM':False})
 
-vaccine_domain = STRIPS_domain(
-    {'userLocation':{'home','doctor','vacCentre'},'Healthy':boolean,'DrAppointment':boolean,'MaskOn':boolean,'Vaccinated':boolean,'vacAppointment':boolean},
-    { Strips('home_dr',{'userLocation':'home'},{'userLocation':'doctor'}),
-      Strips('dr_home',{'userLocation':'doctor'},{'userLocation':'home'}),
-      Strips('home_vacCentre',{'userLocation':'home'},{'userLocation':'vacCentre'}),
-      Strips('vacVentre_Home',{'userLocation':'vacCentre'},{'userLocation':'home'}),
-      Strips('makeDrAppointment',{'userLocation':'home','Healthy':False,'DrAppointment':False},{'Healthy':False,'DrAppointment':True}),
-      Strips('goToDoctor',{'userLocation':'doctor','Healthy':False,'DrAppointment':True},{'userLocation':'home','Healthy':True,'DrAppointment':False}),
-      Strips('makeVacineAppointment',{'userLocation':'home','Healthy':True,'Vaccinated':False,'vacAppointment':False},{'vacAppointment':True}),
-      Strips('getVacinated',{'userLocation':'vacCentre','vacAppointment':True,'Healthy':True,'Vaccinated':False},{'userLocation':'home','vacAppointment':False,'Vaccinated':True})
-    })
-problem0 = Planning_problem(vaccine_domain,
-                             {'userLocation':'doctor','Healthy':True,'Vaccinated':False,'vacAppointment':False}, 
-                             {'userLocation':'home','vacAppointment':False,'Vaccinated':True})
-
-
 #
 # ### blocks world
 # def move(x,y,z):
@@ -145,4 +129,44 @@ problem0 = Planning_problem(vaccine_domain,
 # blocks3 = Planning_problem(blocks2dom,
 #      tower4, # initial state
 #      {on('d'):'a', on('a'):'b', on('b'):'c'})  #goal
+
+'''
+Vacine App that helps users get a covid vacine 
+Problem 0 :  
+'''
+vaccine_domain = STRIPS_domain(
+    {'userLocation':{'home','doctor','vacCentre'},'Healthy':boolean,'DrAppointment':boolean,'MaskOn':boolean,'Vaccinated':boolean,'vacAppointment':boolean},
+    { Strips('home_dr',{'userLocation':'home'},{'userLocation':'doctor'}),
+      Strips('dr_home',{'userLocation':'doctor'},{'userLocation':'home'}),
+      Strips('home_vacCentre',{'userLocation':'home'},{'userLocation':'vacCentre'}),
+      Strips('vacVentre_Home',{'userLocation':'vacCentre'},{'userLocation':'home'}),
+      # Strips('vacCentre_Dr',{'userLocation':'vacCentre'},{'userLocation':'doctor'}),
+      Strips('makeDrAppointment',{'Healthy':False,'DrAppointment':False},{'Healthy':False,'DrAppointment':True}),
+      Strips('goToDoctor',{'userLocation':'doctor','Healthy':False,'DrAppointment':True},{'userLocation':'home','Healthy':True,'DrAppointment':False}),
+      Strips('makeVacineAppointment',{'userLocation':'home','Healthy':True,'Vaccinated':False,'vacAppointment':False},{'vacAppointment':True}),
+      Strips('getVacinated',{'userLocation':'vacCentre','vacAppointment':True,'Healthy':True,'Vaccinated':False},{'userLocation':'vacCentre','vacAppointment':False,'Vaccinated':True}),
+      # Strips('goHome',{'userLocation':'vacCentre','vacAppointment':False,'Vaccinated':True},{'userLocation':'home','vacAppointment':False,'Vaccinated':True}),
+    })
+problem0 = Planning_problem(vaccine_domain,
+                             {'userLocation':'home','Healthy':True,'Vaccinated':False,'vacAppointment':False,}, 
+                             {'userLocation':'home','vacAppointment':False,'Vaccinated':True})
+problem1 = Planning_problem(vaccine_domain,
+                             {'userLocation':'home','Healthy':False,'Vaccinated':False,'vacAppointment':False,'DrAppointment':False}, 
+                             {'userLocation':'home','vacAppointment':False,'Vaccinated':True})
+problem2 = Planning_problem(vaccine_domain,
+                            {'userLocation':'vacCentre','Healthy':False,'Vaccinated':False,'vacAppointment':False,'DrAppointment':False}, 
+                            {'userLocation':'home','vacAppointment':False,'Vaccinated':True})
+problem3 = Planning_problem(vaccine_domain,
+                            {'userLocation':'doctor','Healthy':False,'Vaccinated':True,'vacAppointment':False,'DrAppointment':False}, 
+                            {'userLocation':'home','vacAppointment':False,'Vaccinated':True})
+problem3 = Planning_problem(vaccine_domain,
+                            {'userLocation':'doctor','Healthy':False,'Vaccinated':True,'vacAppointment':False,'DrAppointment':False}, 
+                            {'userLocation':'home','vacAppointment':False,'Vaccinated':True})
+problem4 = Planning_problem(vaccine_domain,
+                            {'userLocation':'vacCentre','Healthy':False,'Vaccinated':True,'vacAppointment':False,'DrAppointment':False}, 
+                            {'userLocation':'doctor','vacAppointment':False,'Vaccinated':True})
+
+
+
+
 

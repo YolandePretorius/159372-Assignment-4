@@ -1,4 +1,6 @@
 MODULES_MANAGER_V3
+GetVacinated|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\GetVacinated.py
+Monkey|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\Monkey.py
 agentEnv|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\agentEnv.py
 agentMiddle|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\agentMiddle.py
 agentTop|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\agentTop.py

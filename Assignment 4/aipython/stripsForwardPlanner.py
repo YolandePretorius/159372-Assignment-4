@@ -83,13 +83,28 @@ class Forward_STRIPS(Search_problem):
 
 from searchBranchAndBound import DF_branch_and_bound
 from searchMPP import SearcherMPP
-from stripsProblem import problem0
+from stripsProblem import problem0,problem1,problem2,problem3,problem4
+
+import time
+start_time = time.perf_counter()
+
 # from stripsProblem import problem0, problem1, problem2, blocks1, blocks2, blocks3
 
 # SearcherMPP(Forward_STRIPS(problem0)).search()  #A* with MPP
-
-# DF_branch_and_bound(Forward_STRIPS(problem0),10).search() #B&B
+# print(SearcherMPP(Forward_STRIPS(problem0)).search())
+# print(SearcherMPP(Forward_STRIPS(problem1)).search())
+# print(SearcherMPP(Forward_STRIPS(problem2)).search())
+# print(SearcherMPP(Forward_STRIPS(problem3)).search())
+print(SearcherMPP(Forward_STRIPS(problem4)).search())
+# s1 = SearcherMPP(Forward_STRIPS(problem0))  #A*
+# print(s1.search())  #find another plan
+# print(DF_branch_and_bound(Forward_STRIPS(problem0),10).search()) #B&B
 # To find more than one plan:
-# s1 = SearcherMPP(Forward_STRIPS(problem1))  #A*
-# s1.search()  #find another plan
+# s1 = SearcherMPP(Forward_STRIPS(problem0))  #A*
+# print(s1.search())  #find another plan
 
+
+end_time = time.perf_counter()
+print("Time:", end_time - start_time, "seconds")
+
+print("-----------------------------------------------------------End--------------------------------------------------------------------")
