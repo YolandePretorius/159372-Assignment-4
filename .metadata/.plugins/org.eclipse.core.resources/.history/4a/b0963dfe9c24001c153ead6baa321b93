@@ -1,0 +1,29 @@
+'''
+Created on 4/10/2021
+
+@author: yolan
+'''
+
+
+if __name__ == '__main__':
+    pass
+
+shoppingAiles = ('entrance','fruit&Veg','milk&Bread','checkOut')
+ShoppingItem1 = 'bananas'
+ShoppingItem2 = 'milk'
+LinksBetweenAiles =[]
+
+def createAilesStripsLinks(i,j):
+    name = i + "_" + j
+    print(name)
+
+def createLocationStrips(shoppingAiles): 
+    for i in shoppingAiles:
+        for j in shoppingAiles:
+            if(i!=j):
+                createAilesStripsLinks(i,j)
+    
+    
+
+
+createLocationStrips(shoppingAiles)

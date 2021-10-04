@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="1" failures="0" finished="true" name="Test Run: 4" tests="0" total_time="Finished in: 0.00 secs."/>
+    <test location="C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsForwardPlanner.py" status="error" test="stripsForwardPlanner" time="0">
+        <stdout/>
+        <stderr>
+            <![CDATA[Traceback (most recent call last):
+  File "C:\Users\yolan\.p2\pool\plugins\org.python.pydev.core_8.3.0.202104101217\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsForwardPlanner.py", line 122, in <module>
+    print(SearcherMPP(Forward_STRIPS(ShoppingList1)).search()) #A* with MPP
+  File "C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\searchMPP.py", line 40, in search
+    neighs = self.problem.neighbors(path.end())
+  File "C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsForwardPlanner.py", line 60, in neighbors
+    return [ Arc(state, self.effect(act,state.assignment), act.cost, act)
+  File "C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsForwardPlanner.py", line 62, in <listcomp>
+    if self.possible(act,state.assignment)]
+  File "C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsForwardPlanner.py", line 67, in possible
+    return all(state_asst[pre] == act.preconds[pre]
+  File "C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsForwardPlanner.py", line 67, in <genexpr>
+    return all(state_asst[pre] == act.preconds[pre]
+KeyError: 'carrots'
+ERROR: Module: stripsForwardPlanner could not be imported (file: C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsForwardPlanner.py).
+]]>
+        </stderr>
+    </test>
+    <launch mode="run">
+        <launch_memento>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="Assignment 4 stripsForwardPlanner.py (1)"/>
+]]>
+        </launch_memento>
+    </launch>
+</pydev-testsuite>

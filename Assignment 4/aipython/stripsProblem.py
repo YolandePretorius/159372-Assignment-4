@@ -166,7 +166,34 @@ problem4 = Planning_problem(vaccine_domain,
                             {'userLocation':'vacCentre','Healthy':False,'Vaccinated':True,'vacAppointment':False,'DrAppointment':False}, 
                             {'userLocation':'doctor','vacAppointment':False,'Vaccinated':True})
 
+'''
+self moving trolley
+items that can be in a trolly:
+shopFruitList = ['bananas','apples','carrots','tomatoes','potatoes','onions','avocado']
+shopMilkBreadList =['milk','bread']
+shopMeat =['chicken','beef','fish','pork','lamb']
+Areas trolly can move:
 
+shoppingAisles = {'entrance','fruit&Veg','milk&Bread','meat''checkOut'}
+'''
+import SelfMovingTrolley as SMT
 
+shoppingList1 = ['bananas','carrots']
+shoppingDomain = SMT.createShoppingDomain(shoppingList1)# create a domain for each customer depending on shopping list to load in the trolley using SelfMovingTrolley.py
+print(shoppingDomain)
+
+ShoppingProblem1 = Planning_problem(shoppingDomain,
+                                 {'Aisle':'entrance','bananas':False,'carrots':False},{'Aisle':'checkOut','bananas':True,'carrots':True})
+
+# shoppingList2 = ['bananas','carrots','bread','milk']
+# shoppingDomain = SMT.createShoppingDomain(shoppingList2)
+# ShoppingProblem2 = Planning_problem(shoppingDomain,
+#                                  {'Aisle':'entrance','bananas':False,'carrots':False},{'Aisle':'checkOut','bananas':True,'carrots':True})
+#
+#
+# shoppingList3 = ['bread','milk','bananas','pork']
+# shoppingDomain = SMT.createShoppingDomain(shoppingList3)
+# ShoppingProblem2 = Planning_problem(shoppingDomain,
+#                                  {'Aisle':'entrance','bananas':False,'carrots':False},{'Aisle':'checkOut','bananas':True,'carrots':True})                                 
 
 
