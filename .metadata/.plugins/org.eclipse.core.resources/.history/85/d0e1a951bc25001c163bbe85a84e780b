@@ -87,8 +87,10 @@ def itemFromAreaDictionary(listItems,actions):
 '''
 def createShoppingDomain(customerShoppingList):
     actions = set(())  # create a new set of actions for each shopping trolley depending on shopping list
+    # print(DomainDictionary)
     addShoppingToDomaindictionary(customerShoppingList)
     createLocationStripsName()
+    # print(DomainDictionary)
     actions = createlocationStrips(actions)
     actions = itemFromAreaDictionary(customerShoppingList,actions)
     Shopping_Domain = STRIPS_domain(DomainDictionary,actions)

@@ -14,8 +14,8 @@ if __name__ == '__main__':
 shoppingAisles = {'entrance','fruit&Veg','milk&Bread','meat','checkOut'}
 
 shopFruitList = ['bananas','apples','carrots','tomatoes','potatoes','onions','avocado']# shops stock
-shopMilkBreadList =['milk','bread']
-shopMeat =['chicken','beef','fish','pork','lamb']
+shopMilkBreadList =['milk','bread']# shops stock
+shopMeat =['chicken','beef','fish','pork','lamb']# shops stock
 
 # ShopList = customerShoppingList # create a complete sholpping list
 actions = set(())
@@ -59,26 +59,25 @@ def addShoppingToDomaindictionary(customerShoppingList):
 go through the list of names created of areas linked together and create strips to move from one area to the next
 Add the strips to the action set 
 '''
-def createlocationStrips(actions):   
+def createlocationStrips():   
     for item in LinksBetweenAislesNames:
         name = item
         preconditionArea = item.split("_")
         action = Strips(name,{'Aisle':preconditionArea[0]},{'Aisle':preconditionArea[1]})
         actions.add(action)
-    return actions
 
 '''
 creates a dictionary to link the item from grocery lists to the area in store where item can be found
 '''
-def itemFromAreaDictionary(listItems,actions):
+def itemFromAreaDictionary(listItems):
     for item in listItems:
         name = 'get'+ item
         for key,value in LocationItmesDictionary.items():
             if item in value:
                 location = key
-                action = Strips(name,{'Aisle':location,item:False},{'Aisle':location,item:True})
-                actions.add(action)
-    return actions
+                actionShopingList = Strips(name,{'Aisle':location,item:False},{'Aisle':location,item:True})
+                actions.add(actionShopingList)
+                # print(action)
          
       
     
@@ -86,11 +85,14 @@ def itemFromAreaDictionary(listItems,actions):
 =================================================main===========================================================
 '''
 def createShoppingDomain(customerShoppingList):
-    actions = set(())  # create a new set of actions for each shopping trolley depending on shopping list
+    actionShopingList = set(())
+    # print(DomainDictionary)
     addShoppingToDomaindictionary(customerShoppingList)
     createLocationStripsName()
-    actions = createlocationStrips(actions)
-    actions = itemFromAreaDictionary(customerShoppingList,actions)
-    Shopping_Domain = STRIPS_domain(DomainDictionary,actions)
+    # print(DomainDictionary)
+    createlocationStrips()
+    itemFromAreaDictionary(customerShoppingList)
+    actionsDomain =  actions + actionShopingList
+    Shopping_Domain = STRIPS_domain(DomainDictionary,actionsDomain)
     
     return(Shopping_Domain)
