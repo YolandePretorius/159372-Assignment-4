@@ -117,10 +117,15 @@ Trolly navigate its path through a grocery store to assist user to ge all items 
 ShoppingList1 : bananas
 ShoppingList2 :
 '''
-from stripsProblem import ShoppingProblem1
 
+from stripsProblem import ShoppingProblem1
 print(SearcherMPP(Forward_STRIPS(ShoppingProblem1)).search()) #A* with MPP 
 
+# from stripsProblem import ShoppingProblem2
+# print(SearcherMPP(Forward_STRIPS(ShoppingProblem2)).search()) #A* with MPP 
+
+# from stripsProblem import ShoppingProblem3
+# print(SearcherMPP(Forward_STRIPS(ShoppingProblem3)).search()) #A* with MPP 
 
 end_time = time.perf_counter()
 print("Time:", end_time - start_time, "seconds")

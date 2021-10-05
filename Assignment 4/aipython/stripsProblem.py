@@ -168,32 +168,29 @@ problem4 = Planning_problem(vaccine_domain,
 
 '''
 self moving trolley
-items that can be in a trolly:
+items that can be in a trolly that shop has in stock:
 shopFruitList = ['bananas','apples','carrots','tomatoes','potatoes','onions','avocado']
 shopMilkBreadList =['milk','bread']
 shopMeat =['chicken','beef','fish','pork','lamb']
-Areas trolly can move:
+Areas trolly can move:shoppingAisles = {'entrance','fruit&Veg','milk&Bread','meat''checkOut'}
 
-shoppingAisles = {'entrance','fruit&Veg','milk&Bread','meat''checkOut'}
 '''
 import SelfMovingTrolley as SMT
 
 shoppingList1 = ['bananas','carrots']
-shoppingDomain = SMT.createShoppingDomain(shoppingList1)# create a domain for each customer depending on shopping list to load in the trolley using SelfMovingTrolley.py
-print(shoppingDomain)
-
-ShoppingProblem1 = Planning_problem(shoppingDomain,
+shoppingDomain1 = SMT.createShoppingDomain(shoppingList1)# create a domain for each customer depending on shopping list to load in the trolley using SelfMovingTrolley.py
+print(shoppingDomain1)
+ShoppingProblem1 = Planning_problem(shoppingDomain1,
                                  {'Aisle':'entrance','bananas':False,'carrots':False},{'Aisle':'checkOut','bananas':True,'carrots':True})
 
-# shoppingList2 = ['bananas','carrots','bread','milk']
-# shoppingDomain = SMT.createShoppingDomain(shoppingList2)
-# ShoppingProblem2 = Planning_problem(shoppingDomain,
-#                                  {'Aisle':'entrance','bananas':False,'carrots':False},{'Aisle':'checkOut','bananas':True,'carrots':True})
-#
-#
-# shoppingList3 = ['bread','milk','bananas','pork']
-# shoppingDomain = SMT.createShoppingDomain(shoppingList3)
-# ShoppingProblem2 = Planning_problem(shoppingDomain,
-#                                  {'Aisle':'entrance','bananas':False,'carrots':False},{'Aisle':'checkOut','bananas':True,'carrots':True})                                 
+shoppingList2 = ['carrots','bread','milk']
+shoppingDomain2 = SMT.createShoppingDomain(shoppingList2)
+ShoppingProblem2 = Planning_problem(shoppingDomain2,
+                                 {'Aisle':'entrance','carrots':False,'bread':False,'milk':False},{'Aisle':'checkOut','carrots':True,'bread':True,'milk':True})
+
+shoppingList3 = ['bread','milk','bananas','pork']
+shoppingDomain3 = SMT.createShoppingDomain(shoppingList3)
+ShoppingProblem3 = Planning_problem(shoppingDomain3,
+                                 {'Aisle':'entrance','carrots':False,'bread':False,'milk':False,'bananas':False,'pork':False},{'Aisle':'entrance','carrots':False,'bread':True,'milk':True,'bananas':True,'pork':True})                                 
 
 
