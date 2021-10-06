@@ -34,7 +34,7 @@ agentEnv|1632864953071000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment
 learnProblem|1632864954055000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\learnProblem.py
 searchGeneric|1632864953363000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\searchGeneric.py
 decnNetworks|1632864953507000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\decnNetworks.py
-SelfMovingTrolley|1633336905624490000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\SelfMovingTrolley.py
+SelfMovingTrolley|1633425129595249000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\SelfMovingTrolley.py
 probStochSim|1632864953412000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\probStochSim.py
 Monkey|1633075847148156000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\Monkey.py
 stripsHeuristic|1633300388129149000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsHeuristic.py
@@ -50,14 +50,14 @@ probVE|1632864953626000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4
 cspExamples|1632864953288000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\cspExamples.py
 masProblem|1632864952889000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\masProblem.py
 probRC|1632864953269000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\probRC.py
-stripsForwardPlanner|1633336766204983000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsForwardPlanner.py
+stripsForwardPlanner|1633425124079405000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsForwardPlanner.py
 cspSLS|1632864953522000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\cspSLS.py
 rlSimpleEnv|1632864953537000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\rlSimpleEnv.py
 display|1632864953427000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\display.py
 rlQTest|1632864952946000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\rlQTest.py
 cspDFS|1632864953477000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\cspDFS.py
 learnEM|1632864952810000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\learnEM.py
-stripsProblem|1633336573289369000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsProblem.py
+stripsProblem|1633421371297780000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\stripsProblem.py
 agents|1632864953461000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\agents.py
 mdpProblem|1632864954166000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\mdpProblem.py
 logicProblem|1632864953672000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\logicProblem.py
@@ -250,12 +250,12 @@ probHMM|1632864953701000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 
 252=Boosting_learner
 113=C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\agentEnv.py
 52=probDBN
-267=Factor
+265=Factor
 134=searchMPP
 147=MDP
 227=Rating_set
 58=rlQExperienceReplay
-266=LogisticRegression
+267=LogisticRegression
 98=rlLinExperienceReplay
 138=probVariables
 397=Factor.__init__
@@ -494,7 +494,7 @@ probHMM|1632864953701000000|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 
 408=Updatable_priority_queue.top
 183=Variable
 422=UtilityTable.__init__
-265=FactorObserved
+266=FactorObserved
 150=Operation
 26=searchProblem
 238=Move
@@ -771,7 +771,7 @@ sea|18|searcher0a!65^110#1*531@searcher4!131^70#1*1059@searcher0!23^204#1*195@Se
 see|1|See_Sm!5^110#1*51@
 sel|3|selectOperation!61^278#5*498@select_from_dist!101^121#5*818@select!17^133#5*146@
 sen|2|senv!27^43#1*227@senv!57^81#1*467@
-sho|12|ShoppingGame!101^172#7*817@shopMeat!21^18#1*179@ShoppingProblem1!45^186#1*371@shoppingAisles!21^14#1*179@shopFruitList!21^16#1*179@shopMilkBreadList!21^17#1*179@Shoes_wet!1^122#1*19@ShowLocal!85^42#7*689@shoppingDomain!45^182#1*371@ShowLocal!83^42#7*673@Show_Localization!19^54#7*161@shoppingList1!45^181#1*371@
+sho|19|ShoppingProblem3!45^194#1*371@shopFruitList!21^16#1*179@shopMilkBreadList!21^17#1*179@shoppingDomain2!45^187#1*371@Shoes_wet!1^122#1*19@ShowLocal!85^42#7*689@shoppingDomain!45^182#1*371@ShowLocal!83^42#7*673@shoppingDomain3!45^192#1*371@shoppingList1!45^181#1*371@ShoppingGame!101^172#7*817@shoppingList3!45^191#1*371@shopMeat!21^18#1*179@ShoppingProblem1!45^186#1*371@shoppingAisles!21^14#1*179@shoppingList2!45^186#1*371@ShoppingProblem2!45^189#1*371@Show_Localization!19^54#7*161@shoppingDomain1!45^181#1*371@
 sig|2|sigmoid!33^75#5*274@Sigmoid_layer!9^79#7*81@
 sim|7|SimpleCountingAgent!101^46#7*817@simp_features!103^130#5*834@simobs!63^198#5*514@SimulateGame!101^128#7*817@simulate!63^182#5*514@Simple_game_env!135^15#7*1089@SimpleQAgent!101^76#7*817@
 sli|1|slin!13^74#5*114@
@@ -830,10 +830,10 @@ R|4|R!147&107^36#9*866@R!144&105^20#9*850@R!145&105^65#9*850@R!146&105^123#9*850
 __e|4|__eq__!149&91^22#9*738@__eq__!149&61^38#9*498@__eq__!150&61^79#9*498@__eq__!151&125^21#9*1010@
 __g|1|__gt__!152&51^35#9*418@
 __h|3|__hash__!151&125^17#9*1010@__hash__!150&61^82#9*498@__hash__!149&91^18#9*738@
-__i|137|__init__!153&31^21#9*258@__init__!154&31^179#9*258@__init__!155&31^241#9*258@__init__!156&99^20#9*802@__init__!157&99^72#9*802@__init__!158&17^16#9*146@__init__!159&17^157#9*146@__init__!160&135^34#9*1090@__init__!161&75^19#9*610@__init__!162&113^15#9*914@__init__!163&113^27#9*914@__init__!164&49^23#9*402@__init__!165&49^67#9*402@__init__!166&11^21#9*98@__init__!167&131^19#9*1058@__init__!168&109^17#9*882@__init__!169&23^16#9*194@__init__!170&23^30#9*194@__init__!171&23^71#9*194@__init__!172&5^22#9*50@__init__!173&5^30#9*50@__init__!174&5^36#9*50@__init__!175&5^204#9*50@__init__!176&5^325#9*50@__init__!177&5^357#9*50@__init__!178&5^388#9*50@__init__!179&73^16#9*594@__init__!144&105^15#9*850@__init__!145&105^34#9*850@__init__!146&105^81#9*850@__init__!180&89^16#9*722@__init__!181&57^16#9*466@__init__!182&57^34#9*466@__init__!183&67^21#9*546@__init__!184&67^45#9*546@__init__!185&67^78#9*546@__init__!186&115^20#9*930@__init__!149&91^15#9*738@__init__!187&91^36#9*738@__init__!188&7^14#9*66@__init__!189&7^30#9*66@__init__!190&7^48#9*66@__init__!191&45^12#9*370@__init__!192&45^32#9*370@__init__!193&45^42#9*370@__init__!194&65^19#9*530@__init__!195&1^22#9*18@__init__!196&1^30#9*18@__init__!197&1^199#9*18@__init__!198&111^15#9*898@__init__!199&29^14#9*242@__init__!200&29^43#9*242@__init__!201&29^87#9*242@__init__!202&29^119#9*242@__init__!147&107^23#9*866@__init__!203&107^61#9*866@__init__!204&71^17#9*578@__init__!205&133^18#9*1074@__init__!206&127^15#9*1026@__init__!207&41^18#9*338@__init__!208&41^72#9*338@__init__!209&41^116#9*338@__init__!210&63^15#9*514@__init__!211&63^59#9*514@__init__!212&63^118#9*514@__init__!183&137^20#9*1106@__init__!213&101^18#9*818@__init__!214&101^50#9*818@__init__!215&101^81#9*818@__init__!216&101^129#9*818@__init__!217&101^173#9*818@__init__!218&101^185#9*818@__init__!219&101^197#9*818@__init__!220&101^210#9*818@__iter__!208&41^106#9*338@__init__!221&25^38#9*210@__init__!222&25^63#9*210@__init__!223&25^110#9*210@__init__!224&85^17#9*690@__init__!225&85^43#9*690@__init__!226&59^18#9*482@__init__!227&59^174#9*482@__init__!224&83^17#9*674@__init__!225&83^43#9*674@__init__!228&33^15#9*274@__init__!229&9^16#9*82@__init__!230&9^46#9*82@__init__!231&9^118#9*82@__init__!232&9^84#9*82@__init__!233&9^102#9*82@__init__!234&19^22#9*162@__init__!224&19^43#9*162@__init__!235&19^55#9*162@__init__!236&53^15#9*434@__init__!237&53^40#9*434@__init__!149&61^35#9*498@__init__!150&61^70#9*498@__init__!238&61^121#9*498@__init__!239&61^151#9*498@__init__!240&61^182#9*498@__init__!241&61^221#9*498@__init__!242&47^56#9*386@__init__!243&47^69#9*386@__init__!244&47^109#9*386@__init__!245&47^149#9*386@__init__!246&47^248#9*386@__init__!247&15^22#9*130@__init__!248&15^123#9*130@__init__!249&15^268#9*130@__init__!250&15^347#9*130@__init__!251&55^14#9*450@__init__!252&55^31#9*450@__init__!253&93^16#9*754@__init__!254&93^27#9*754@__init__!255&93^51#9*754@__init__!256&97^17#9*786@__init__!257&39^16#9*322@__init__!258&39^27#9*322@__init__!151&125^14#9*1010@__init__!259&125^34#9*1010@__init__!152&51^22#9*418@__init__!260&51^48#9*418@__init__!261&51^64#9*418@__init__!262&51^82#9*418@__init__!263&51^136#9*418@__init__!264&51^165#9*418@__init__!265&69^160#9*562@__init__!266&69^90#9*562@__init__!267&69^17#9*562@__init__!268&69^64#9*562@__init__!269&69^81#9*562@__init__!270&69^111#9*562@__init__!271&69^135#9*562@__init__!272&69^151#9*562@__init__!273&69^172#9*562@__init__!274&87^26#9*706@__init__!275&123^31#9*994@
+__i|137|__init__!153&31^21#9*258@__init__!154&31^179#9*258@__init__!155&31^241#9*258@__init__!156&99^20#9*802@__init__!157&99^72#9*802@__init__!158&17^16#9*146@__init__!159&17^157#9*146@__init__!160&135^34#9*1090@__init__!161&75^19#9*610@__init__!162&113^15#9*914@__init__!163&113^27#9*914@__init__!164&49^23#9*402@__init__!165&49^67#9*402@__init__!166&11^21#9*98@__init__!167&131^19#9*1058@__init__!168&109^17#9*882@__init__!169&23^16#9*194@__init__!170&23^30#9*194@__init__!171&23^71#9*194@__init__!172&5^22#9*50@__init__!173&5^30#9*50@__init__!174&5^36#9*50@__init__!175&5^204#9*50@__init__!176&5^325#9*50@__init__!177&5^357#9*50@__init__!178&5^388#9*50@__init__!179&73^16#9*594@__init__!144&105^15#9*850@__init__!145&105^34#9*850@__init__!146&105^81#9*850@__init__!180&89^16#9*722@__init__!181&57^16#9*466@__init__!182&57^34#9*466@__init__!183&67^21#9*546@__init__!184&67^45#9*546@__init__!185&67^78#9*546@__init__!186&115^20#9*930@__init__!149&91^15#9*738@__init__!187&91^36#9*738@__init__!188&7^14#9*66@__init__!189&7^30#9*66@__init__!190&7^48#9*66@__init__!191&45^12#9*370@__init__!192&45^32#9*370@__init__!193&45^42#9*370@__init__!194&65^19#9*530@__init__!195&1^22#9*18@__init__!196&1^30#9*18@__init__!197&1^199#9*18@__init__!198&111^15#9*898@__init__!199&29^14#9*242@__init__!200&29^43#9*242@__init__!201&29^87#9*242@__init__!202&29^119#9*242@__init__!147&107^23#9*866@__init__!203&107^61#9*866@__init__!204&71^17#9*578@__init__!205&133^18#9*1074@__init__!206&127^15#9*1026@__init__!207&41^18#9*338@__init__!208&41^72#9*338@__init__!209&41^116#9*338@__init__!210&63^15#9*514@__init__!211&63^59#9*514@__init__!212&63^118#9*514@__init__!183&137^20#9*1106@__init__!213&101^18#9*818@__init__!214&101^50#9*818@__init__!215&101^81#9*818@__init__!216&101^129#9*818@__init__!217&101^173#9*818@__init__!218&101^185#9*818@__init__!219&101^197#9*818@__init__!220&101^210#9*818@__iter__!208&41^106#9*338@__init__!221&25^38#9*210@__init__!222&25^63#9*210@__init__!223&25^110#9*210@__init__!224&85^17#9*690@__init__!225&85^43#9*690@__init__!226&59^18#9*482@__init__!227&59^174#9*482@__init__!224&83^17#9*674@__init__!225&83^43#9*674@__init__!228&33^15#9*274@__init__!229&9^16#9*82@__init__!230&9^46#9*82@__init__!231&9^118#9*82@__init__!232&9^84#9*82@__init__!233&9^102#9*82@__init__!234&19^22#9*162@__init__!224&19^43#9*162@__init__!235&19^55#9*162@__init__!236&53^15#9*434@__init__!237&53^40#9*434@__init__!149&61^35#9*498@__init__!150&61^70#9*498@__init__!238&61^121#9*498@__init__!239&61^151#9*498@__init__!240&61^182#9*498@__init__!241&61^221#9*498@__init__!242&47^56#9*386@__init__!243&47^69#9*386@__init__!244&47^109#9*386@__init__!245&47^149#9*386@__init__!246&47^248#9*386@__init__!247&15^22#9*130@__init__!248&15^123#9*130@__init__!249&15^268#9*130@__init__!250&15^347#9*130@__init__!251&55^14#9*450@__init__!252&55^31#9*450@__init__!253&93^16#9*754@__init__!254&93^27#9*754@__init__!255&93^51#9*754@__init__!256&97^17#9*786@__init__!257&39^16#9*322@__init__!258&39^27#9*322@__init__!151&125^14#9*1010@__init__!259&125^34#9*1010@__init__!152&51^22#9*418@__init__!260&51^48#9*418@__init__!261&51^64#9*418@__init__!262&51^82#9*418@__init__!263&51^136#9*418@__init__!264&51^165#9*418@__init__!265&69^17#9*562@__init__!266&69^160#9*562@__init__!267&69^90#9*562@__init__!268&69^64#9*562@__init__!269&69^81#9*562@__init__!270&69^111#9*562@__init__!271&69^135#9*562@__init__!272&69^151#9*562@__init__!273&69^172#9*562@__init__!274&87^26#9*706@__init__!275&123^31#9*994@
 __l|2|__len__!208&41^102#9*338@__lt__!152&51^29#9*418@
-__r|17|__repr__!149&61^65#9*498@__repr__!238&61^137#9*498@__repr__!239&61^159#9*498@__repr__!240&61^190#9*498@__repr__!241&61^228#9*498@__repr__!267&69^61#5*563@__repr__!268&69^78#5*563@__repr__!208&41^98#9*338@__repr__!169&23^26#5*195@__repr__!191&45^28#9*370@__repr__!183&137^34#9*1106@__repr__!221&25^46#9*210@__repr__!222&25^96#9*210@__repr__!223&25^142#9*210@__repr__!183&67^35#9*546@__repr__!184&67^54#9*546@__repr__!185&67^95#9*546@
-__s|16|__str__!257&39^20#9*322@__str__!183&137^31#9*1106@__str__!248&15^161#9*130@__str__!151&125^23#9*1010@__str__!183&67^32#9*546@__str__!185&67^91#9*546@__str__!188&7^19#9*66@__str__!189&7^34#9*66@__str__!190&7^66#9*66@__str__!149&61^63#9*498@__str__!150&61^76#9*498@__str__!169&23^23#9*194@__str__!170&23^45#9*194@__str__!149&91^24#9*738@__str__!267&69^36#9*562@__str__!268&69^71#9*562@
+__r|17|__repr__!149&61^65#9*498@__repr__!238&61^137#9*498@__repr__!239&61^159#9*498@__repr__!240&61^190#9*498@__repr__!241&61^228#9*498@__repr__!265&69^61#5*563@__repr__!268&69^78#5*563@__repr__!208&41^98#9*338@__repr__!169&23^26#5*195@__repr__!191&45^28#9*370@__repr__!183&137^34#9*1106@__repr__!221&25^46#9*210@__repr__!222&25^96#9*210@__repr__!223&25^142#9*210@__repr__!183&67^35#9*546@__repr__!184&67^54#9*546@__repr__!185&67^95#9*546@
+__s|16|__str__!257&39^20#9*322@__str__!183&137^31#9*1106@__str__!248&15^161#9*130@__str__!151&125^23#9*1010@__str__!183&67^32#9*546@__str__!185&67^91#9*546@__str__!188&7^19#9*66@__str__!189&7^34#9*66@__str__!190&7^66#9*66@__str__!149&61^63#9*498@__str__!150&61^76#9*498@__str__!169&23^23#9*194@__str__!170&23^45#9*194@__str__!149&91^24#9*738@__str__!265&69^36#9*562@__str__!268&69^71#9*562@
 acc|3|acc_rewards!276&115^42#9*931@acc_rewards!277&87^50#9*707@acc_rewards!278&123^58#9*995@
 ach|1|achieves!171&23^158#9*194@
 act|31|actions!279&23^40#9*195@actions!280&93^17#9*755@actions!281&107^25#9*867@action!282&23^20#9*195@action_buffer!283&97^23#9*787@action_index!284&93^55#9*755@actions!285&123^45#9*995@act2trans!286&19^23#9*163@actions!160&135^32#5*1091@act!287&101^34#9*819@act!288&101^43#9*819@act!289&101^72#9*819@act!290&101^110#9*819@action!291&97^54#13*787@actions!292&87^39#9*707@action!277&87^54#9*707@action!293&87^72#13*707@actions!294&115^31#9*931@action!295&25^43#9*211@action_history!296&101^132#9*819@action_vars!297&65^25#9*531@actions!298&101^22#9*819@actions!296&101^135#9*819@actions!299&101^144#13*819@actions!300&101^175#9*819@actions!301&101^187#9*819@actions!302&101^199#9*819@actions!303&101^212#9*819@actuals!304&59^125#9*483@action_dist!216&101^150#9*818@actions!305&45^39#9*371@
@@ -847,7 +847,7 @@ any|1|any_holds!158&17^73#9*146@
 app|1|apply!150&61^93#9*498@
 arc|2|arcs!312&25^68#9*211@arc!313&25^114#9*211@
 ask|1|askables!314&7^51#9*67@
-ass|4|assumables!315&39^28#9*323@ass_to_str!267&69^52#9*562@assignment!316&91^16#9*739@assignment!317&125^15#9*1011@
+ass|4|assumables!315&39^28#9*323@ass_to_str!265&69^52#9*562@assignment!316&91^16#9*739@assignment!317&125^15#9*1011@
 ato|3|atom!318&7^32#9*67@atom!319&39^18#9*323@atom_to_clauses!314&7^52#9*67@
 ava|1|available!310&99^83#9*803@
 ave|5|ave_rating!320&59^39#9*483@averew!321&101^57#9*819@averew!289&101^64#9*819@ave!322&29^91#9*243@ave!323&29^107#13*243@
@@ -864,7 +864,7 @@ bou|3|bounded_mean!307&95^25#9*770@bound!331&75^26#9*611@bound!332&75^42#21*611@
 buf|2|buffer!337&57^18#9*467@buffer_size!337&57^17#9*467@
 bur|2|burn_in!283&97^26#9*787@burn_in!338&57^41#9*467@
 cac|2|cache!339&49^68#9*403@cache!340&5^206#9*51@
-can|3|can_evaluate!184&67^57#9*546@can_evaluate!267&69^23#9*562@canApply!150&61^85#9*498@
+can|3|can_evaluate!184&67^57#9*546@can_evaluate!265&69^23#9*562@canApply!150&61^85#9*498@
 cau|1|causal_links!279&23^43#9*195@
 chi|6|children!156&99^30#9*802@children!157&99^90#9*802@children!341&5^43#9*51@children!342&1^38#9*19@child!343&69^68#9*563@child!344&69^156#9*563@
 cla|7|class_prediction!179&73^40#9*594@class_counts!345&73^23#9*595@class_counts!346&73^67#9*595@clauses!314&7^50#9*67@class_counts!347&71^20#9*579@clauses_for_atom!190&7^59#9*66@class_of_eg!179&73^47#9*594@
@@ -909,7 +909,7 @@ fol|3|fold_boundaries!366&109^24#9*883@fold_complement!168&109^31#9*882@fold!168
 fro|6|frontier!332&75^32#9*611@from_node!295&25^41#9*211@frontier_index!382&41^75#9*339@frontier!383&41^28#9*339@frontierpq!382&41^76#9*339@frontier!384&41^120#9*339@
 gam|1|game!296&101^130#9*819@
 gen|1|generateStates!149&61^41#9*498@
-get|24|get_features!292&87^38#9*707@get_val_rec!271&69^142#9*562@getPreconditions!238&61^130#9*498@getPreconditions!239&61^162#9*498@getPreconditions!240&61^193#9*498@getPreconditions!241&61^231#9*498@getA!238&61^140#9*498@getA!239&61^169#9*498@getA!240&61^203#9*498@getA!241&61^239#9*498@getE!238&61^145#9*498@getE!239&61^175#9*498@getE!240&61^212#9*498@getE!241&61^244#9*498@get_value!260&51^58#9*418@get!181&57^30#9*466@get_value!177&5^368#9*50@get_value!267&69^29#9*562@get_value!269&69^84#9*562@get_value!266&69^100#9*562@get_value!270&69^121#9*562@get_value!271&69^139#9*562@get_value!265&69^165#9*562@get_value!273&69^183#9*562@
+get|24|get_features!292&87^38#9*707@get_val_rec!271&69^142#9*562@getPreconditions!238&61^130#9*498@getPreconditions!239&61^162#9*498@getPreconditions!240&61^193#9*498@getPreconditions!241&61^231#9*498@getA!238&61^140#9*498@getA!239&61^169#9*498@getA!240&61^203#9*498@getA!241&61^239#9*498@getE!238&61^145#9*498@getE!239&61^175#9*498@getE!240&61^212#9*498@getE!241&61^244#9*498@get_value!260&51^58#9*418@get!181&57^30#9*466@get_value!177&5^368#9*50@get_value!265&69^29#9*562@get_value!269&69^84#9*562@get_value!267&69^100#9*562@get_value!270&69^121#9*562@get_value!271&69^139#9*562@get_value!266&69^165#9*562@get_value!273&69^183#9*562@
 gm|3|gm!385&47^250#9*387@gm!340&5^205#9*51@gm!386&1^200#9*19@
 go|6|go!224&19^46#9*162@go!216&101^138#9*818@go!224&83^20#9*674@go!224&85^20#9*690@go!199&29^18#9*242@go!201&29^94#9*242@
 goa|3|goal!387&45^51#9*371@goal!388&91^44#9*739@goals!312&25^72#9*211@
@@ -954,7 +954,7 @@ mon|3|monster_appears_prob!160&135^28#5*1091@monster_reward_when_damaged!160&135
 nam|13|name!139&61^71#9*499@name!140&61^122#9*499@name!141&61^152#9*499@name!142&61^183#9*499@name!143&61^222#9*499@name!397&69^20#9*563@name!309&99^21#9*803@name!310&99^88#9*803@name!373&137^26#9*1107@name!353&45^23#9*371@name!373&67^27#9*547@name!374&5^391#9*51@name2var!409&51^141#9*419@
 nei|9|neighbors!159&17^168#9*146@neighs!312&25^64#9*211@neighbors!167&131^38#9*1058@neighbors!187&91^58#9*738@neighbors!171&23^85#9*194@neighbors!393&25^27#9*210@neighbors!222&25^84#9*210@neighbor_nodes!222&25^103#9*210@neighbors!259&125^55#9*1010@
 new|1|new_to_do!158&17^57#9*146@
-nex|3|next_index!169&23^15#5*195@next_id!213&101^17#5*819@nextid!267&69^15#5*563@
+nex|3|next_index!169&23^15#5*195@next_id!213&101^17#5*819@nextid!265&69^15#5*563@
 nn|1|nn!410&9^21#9*83@
 nod|5|nodes!312&25^65#9*211@nodoor!225&85^77#9*690@nodoor!235&19^95#9*162@nodoor!225&83^81#9*674@nodes!223&25^127#9*210@
 num|26|num_ratings!320&59^37#9*483@num_iterations!345&73^32#9*595@num_expanded!411&41^23#9*339@num_classes!347&71^19#9*579@num_classes!368&73^18#9*595@number_steps!362&135^41#9*1091@num_agents!300&101^174#9*819@num_agents!301&101^186#9*819@num_agents!302&101^198#9*819@num_agents!303&101^211#9*819@num_steps!321&101^58#9*819@num_steps!148&101^95#9*819@num_steps!296&101^136#9*819@num_properties!320&59^36#9*483@number_added!283&97^24#9*787@number_added!337&57^19#9*467@number_of_steps!357&31^27#9*259@num_folds!366&109^21#9*883@num_properties!391&15^40#9*131@num_outputs!410&9^24#13*83@num_outputs!365&9^122#9*83@num_outputs!412&9^130#9*83@num_updates_per_action!338&57^40#9*467@num_expanded!332&75^33#9*611@num_updates_per_action!283&97^25#9*787@num_inputs!410&9^22#9*83@
@@ -1017,7 +1017,7 @@ tar|8|target!366&109^19#9*883@target!400&55^28#9*451@target!367&33^29#9*275@targ
 tes|5|testIM!197&1^206#9*18@test!391&15^36#9*131@test_stats!437&59^189#9*483@test_ratings!320&59^31#13*483@test_ratings!437&59^188#9*483@
 tim|2|timeout!406&53^23#9*435@time!424&29^45#9*243@
 tit|3|title!351&67^83#9*547@title!399&51^83#9*419@title!378&1^23#9*19@
-to_|2|to_table!267&69^40#9*562@to_node!295&25^42#9*211@
+to_|2|to_table!265&69^40#9*562@to_node!295&25^42#9*211@
 top|6|topological_sort_saved!341&5^48#9*51@top_goal!392&125^41#9*1011@topological_sort!196&1^44#9*18@top!154&31^223#9*258@topological_sort_saved!342&1^42#9*19@topologicalsort_saved!438&1^62#9*19@
 tot|2|total_reward!362&135^42#9*1091@total_score!298&101^27#9*819@
 tra|7|train!391&15^35#9*131@transition_factors!399&51^86#9*419@training_stats!437&59^187#9*483@train!364&89^28#13*723@training_ratings!437&59^186#9*483@trans!398&63^26#9*515@train!367&33^31#13*275@

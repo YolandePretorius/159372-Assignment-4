@@ -135,7 +135,7 @@ Vacine App that helps users get a covid vacine
 Problem 0 :  
 '''
 vaccine_domain = STRIPS_domain(
-    {'userLocation':{'home','doctor','vacCentre'},'Healthy':boolean,'DrAppointment':boolean,'MaskOn':boolean,'Vaccinated':boolean,'vacAppointment':boolean},
+    {'userLocation':{'home','doctor','vacCentre'},'Healthy':boolean,'DrAppointment':boolean,'Vaccinated':boolean,'vacAppointment':boolean},
     { Strips('home_dr',{'userLocation':'home'},{'userLocation':'doctor'}),
       Strips('dr_home',{'userLocation':'doctor'},{'userLocation':'home'}),
       Strips('home_vacCentre',{'userLocation':'home'},{'userLocation':'vacCentre'}),
@@ -179,7 +179,6 @@ import SelfMovingTrolley as SMT
 
 shoppingList1 = ['bananas','carrots']
 shoppingDomain1 = SMT.createShoppingDomain(shoppingList1)# create a domain for each customer depending on shopping list to load in the trolley using SelfMovingTrolley.py
-print(shoppingDomain1)
 ShoppingProblem1 = Planning_problem(shoppingDomain1,
                                  {'Aisle':'entrance','bananas':False,'carrots':False},{'Aisle':'checkOut','bananas':True,'carrots':True})
 

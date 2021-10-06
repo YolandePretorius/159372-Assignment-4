@@ -94,14 +94,13 @@ App helping user to get a vaccine uncomment to run different problems
 
 from stripsProblem import problem0,problem1,problem2,problem3,problem4
 
-# from stripsProblem import problem0, problem1, problem2, blocks1, blocks2, blocks3
 
-# SearcherMPP(Forward_STRIPS(problem0)).search()  #A* with MPP
-# print(SearcherMPP(Forward_STRIPS(problem0)).search())
+
+# print(SearcherMPP(Forward_STRIPS(problem0)).search())#A* with MPP
 # print(SearcherMPP(Forward_STRIPS(problem1)).search())
 # print(SearcherMPP(Forward_STRIPS(problem2)).search())
 # print(SearcherMPP(Forward_STRIPS(problem3)).search())
-# print(SearcherMPP(Forward_STRIPS(problem4)).search())
+print(SearcherMPP(Forward_STRIPS(problem4)).search())
 # s1 = SearcherMPP(Forward_STRIPS(problem0))  #A*
 # print(s1.search())  #find another plan
 # print(DF_branch_and_bound(Forward_STRIPS(problem0),10).search()) #B&B
@@ -118,13 +117,15 @@ ShoppingList1 : bananas
 ShoppingList2 :
 '''
 
-from stripsProblem import ShoppingProblem1,ShoppingProblem2,ShoppingProblem3
+# from stripsProblem import ShoppingProblem1,ShoppingProblem2,ShoppingProblem3
+#
+# print(SearcherMPP(Forward_STRIPS(ShoppingProblem1)).search()) #A* with MPP 
+#
+# print(SearcherMPP(Forward_STRIPS(ShoppingProblem2)).search()) #A* with MPP 
+#
+# print(SearcherMPP(Forward_STRIPS(ShoppingProblem3)).search()) #A* with MPP 
+#
 
-print(SearcherMPP(Forward_STRIPS(ShoppingProblem1)).search()) #A* with MPP 
-
-print(SearcherMPP(Forward_STRIPS(ShoppingProblem2)).search()) #A* with MPP 
-
-print(SearcherMPP(Forward_STRIPS(ShoppingProblem3)).search()) #A* with MPP 
 
 end_time = time.perf_counter()
 print("Time:", end_time - start_time, "seconds")

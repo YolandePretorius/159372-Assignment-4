@@ -1,6 +1,6 @@
 MODULES_MANAGER_V3
-GetVacinated|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\GetVacinated.py
 Monkey|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\Monkey.py
+SelfMovingTrolley|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\SelfMovingTrolley.py
 agentEnv|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\agentEnv.py
 agentMiddle|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\agentMiddle.py
 agentTop|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\agentTop.py
@@ -56,6 +56,7 @@ rlQLearner|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\rlQLea
 rlQTest|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\rlQTest.py
 rlSimpleEnv|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\rlSimpleEnv.py
 rlSimpleGameFeatures|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\rlSimpleGameFeatures.py
+runShoppingTrolley|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\runShoppingTrolley.py
 searchBranchAndBound|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\searchBranchAndBound.py
 searchGeneric|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\searchGeneric.py
 searchMPP|C:\Users\yolan\eclipse-workspace\TutTest\Assignment 4\aipython\searchMPP.py
