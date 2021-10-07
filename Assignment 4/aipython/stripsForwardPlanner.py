@@ -100,8 +100,10 @@ from stripsProblem import problem0,problem1,problem2,problem3,problem4
 # print(SearcherMPP(Forward_STRIPS(problem1)).search())
 # print(SearcherMPP(Forward_STRIPS(problem2)).search())
 # print(SearcherMPP(Forward_STRIPS(problem3)).search())
-print(SearcherMPP(Forward_STRIPS(problem4)).search())
-# s1 = SearcherMPP(Forward_STRIPS(problem0))  #A*
+# print(SearcherMPP(Forward_STRIPS(problem4)).search())
+
+
+# s1 = SearcherMPP(Forward_STRIPS(problem4))  #A*
 # print(s1.search())  #find another plan
 # print(DF_branch_and_bound(Forward_STRIPS(problem0),10).search()) #B&B
 # To find more than one plan:
@@ -113,11 +115,14 @@ print(SearcherMPP(Forward_STRIPS(problem4)).search())
 ===============================================================================selfmoving shopping trolley=============================================
 self moving shopping trolley problem.
 Trolly navigate its path through a grocery store to assist user to ge all items required in their shopping list
-ShoppingList1 : bananas
-ShoppingList2 :
+ShoppingList1 : 'bananas','bread'
+ShoppingList2 :'carrots','bread','milk'
+ShoppingList3:'bread','milk','bananas','pork'
+ShoppingList4:'pork','avocado','tomatoes'
+ShoppingList5:
 '''
 
-# from stripsProblem import ShoppingProblem1,ShoppingProblem2,ShoppingProblem3
+from stripsProblem import ShoppingProblem1,ShoppingProblem2,ShoppingProblem3,ShoppingProblem4,ShoppingProblem5
 #
 # print(SearcherMPP(Forward_STRIPS(ShoppingProblem1)).search()) #A* with MPP 
 #
@@ -125,7 +130,9 @@ ShoppingList2 :
 #
 # print(SearcherMPP(Forward_STRIPS(ShoppingProblem3)).search()) #A* with MPP 
 #
+# print(SearcherMPP(Forward_STRIPS(ShoppingProblem4)).search()) #A* with MPP 
 
+print(SearcherMPP(Forward_STRIPS(ShoppingProblem5)).search()) #A* with MPP 
 
 end_time = time.perf_counter()
 print("Time:", end_time - start_time, "seconds")

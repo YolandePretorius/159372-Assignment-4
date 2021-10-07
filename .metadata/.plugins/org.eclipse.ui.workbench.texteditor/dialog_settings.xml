@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="carrots"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="print"/>
 			<item value="carrots"/>
 			<item value="ail"/>
-			<item value="print"/>
 			<item value="DrAppointment"/>
 			<item value="health"/>
 			<item value="userLacation"/>
@@ -25,7 +25,7 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1678"/>
+		<item key="DIALOG_X_ORIGIN" value="1593"/>
 		<item key="DIALOG_Y_ORIGIN" value="117"/>
 		<item key="DIALOG_WIDTH" value="336"/>
 		<item key="DIALOG_HEIGHT" value="427"/>

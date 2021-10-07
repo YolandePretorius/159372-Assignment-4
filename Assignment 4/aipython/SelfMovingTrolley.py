@@ -14,8 +14,8 @@ if __name__ == '__main__':
 shoppingAisles = {'entrance','fruit&Veg','milk&Bread','meat','checkOut'}
 
 shopFruitList = ['bananas','apples','carrots','tomatoes','potatoes','onions','avocado']# shops stock
-shopMilkBreadList =['milk','bread']
-shopMeat =['chicken','beef','fish','pork','lamb']
+shopMilkBreadList =['milk','bread'] #shop stock
+shopMeat =['chicken','beef','fish','pork','lamb']#shop stock
 
 # ShopList = customerShoppingList # create a complete sholpping list
 actions = set(())
@@ -39,7 +39,7 @@ def createAislesStripsLinksName(i,j):
         LinksBetweenAislesNames.append(name)
         
 '''
-create links between the aisles of the shop so that trolley can move from one place to the next.
+create strips between the aisles of the shop so that trolley can move from one place to the next.
 '''
 def createLocationStripsName(): 
     for i in shoppingAisles:
